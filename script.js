@@ -9,10 +9,10 @@ const nextPageUrl = 'main.html'; // Replace with the URL of the new page
 form.addEventListener('submit', (e) => {
 	e.preventDefault();
 	const userInput = codeInput.value.trim();
-	if (userInput === secretCode) {
-		resultDiv.innerHTML = 'Baby';
+	if (userInput === 'Zalak' || userInput === 'zalak' || userInput === 'Rina' || userInput === 'rina' || userInput === 'Rini'userInput === 'rini') {
+		resultDiv.innerHTML = 'Yes you are my Baby';
 		window.location.href = nextPageUrl; // Redirect to new page
 	} else {
-		resultDiv.innerHTML = 'Naa Tum meri baby nhi hoo kon hooo tum kaha hai meri Sona';
+		resultDiv.innerHTML = 'Naa Tum meri baby nhi hoo kon hooo tum ? Ye sirf meri baby ke liye hi he samji !';
 	}
 });
